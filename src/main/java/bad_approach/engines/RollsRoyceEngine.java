@@ -2,8 +2,9 @@ package bad_approach.engines;
 
 public class RollsRoyceEngine {
     private final String brandName;
-    public RollsRoyceEngine(){
-        this.brandName="Rolls Royce";
+
+    public RollsRoyceEngine() {
+        this.brandName = "Rolls Royce";
     }
 
     @Override

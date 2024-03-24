@@ -5,14 +5,14 @@ import bad_approach.tyres.MichelinTyres;
 import bad_approach.engines.FordEngine;
 
 public class Ferrari {
-    private  final MichelinTyres tyres;
+    private final MichelinTyres tyres;
     private final FordEngine engines;
     private final BoschSoundSystems soundSystems;
 
-    public Ferrari(){
-        this.tyres=new MichelinTyres();
-        this.engines=new FordEngine();
-        this.soundSystems=new BoschSoundSystems();
+    public Ferrari() {
+        this.tyres = new MichelinTyres();
+        this.engines = new FordEngine();
+        this.soundSystems = new BoschSoundSystems();
     }
 
     @Override

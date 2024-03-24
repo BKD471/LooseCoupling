@@ -11,21 +11,21 @@ public class Ferrai {
     private final ISoundSystems soundSystems;
     private final ITyres tyres;
 
-    public Ferrai(IEngines engines,ISoundSystems soundSystems,ITyres tyres){
-        this.engines=engines;
-        this.soundSystems=soundSystems;
-        this.tyres=tyres;
+    public Ferrai(IEngines engines, ISoundSystems soundSystems, ITyres tyres) {
+        this.engines = engines;
+        this.soundSystems = soundSystems;
+        this.tyres = tyres;
     }
 
-    public void startMyEngine(){
+    public void startMyEngine() {
         engines.startMyEngine();
     }
 
-    public void startMusic(){
+    public void startMusic() {
         soundSystems.blowIt();
     }
 
-    public void letsRoll(){
+    public void letsRoll() {
         tyres.letsRoll();
     }
 
