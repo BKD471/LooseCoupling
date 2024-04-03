@@ -6,7 +6,7 @@ import good_approach.engines.RollsRoyceEngine;
 import good_approach.types.EngineTypes;
 
 public class EngineFactory {
-    public static IEngines getMyEngine(EngineTypes engineTypes) {
+    public static IEngines getMyEngine(final EngineTypes engineTypes) {
         switch (engineTypes) {
             case FORD -> {
                 return new FordEngine();

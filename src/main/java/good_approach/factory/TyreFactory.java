@@ -7,7 +7,7 @@ import good_approach.tyres.MRFTyres;
 import good_approach.tyres.MichelinTyres;
 
 public class TyreFactory {
-    public static ITyres getMyTyres(TyreTypes tyreTypes) {
+    public static ITyres getMyTyres(final TyreTypes tyreTypes) {
         switch (tyreTypes) {
             case MRF -> {
                 return new MRFTyres();

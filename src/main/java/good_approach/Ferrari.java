@@ -1,17 +1,15 @@
 package good_approach;
 
 import good_approach.engines.IEngines;
-import good_approach.engines.RollsRoyceEngine;
 import good_approach.soundsystems.ISoundSystems;
-import good_approach.soundsystems.SonySoundSystems;
 import good_approach.tyres.ITyres;
 
-public class Ferrai {
+public class Ferrari {
     private final IEngines engines;
     private final ISoundSystems soundSystems;
     private final ITyres tyres;
 
-    public Ferrai(IEngines engines, ISoundSystems soundSystems, ITyres tyres) {
+    public Ferrari(IEngines engines, ISoundSystems soundSystems, ITyres tyres) {
         this.engines = engines;
         this.soundSystems = soundSystems;
         this.tyres = tyres;

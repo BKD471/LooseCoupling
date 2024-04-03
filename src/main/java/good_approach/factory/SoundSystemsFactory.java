@@ -7,7 +7,7 @@ import good_approach.soundsystems.SonySoundSystems;
 import good_approach.types.SoundTypes;
 
 public class SoundSystemsFactory {
-    public static ISoundSystems getMySoundSystems(SoundTypes soundTypes) {
+    public static ISoundSystems getMySoundSystems(final SoundTypes soundTypes) {
         switch (soundTypes) {
             case JBL -> {
                 return new JBLSoundSystems();

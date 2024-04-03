@@ -13,15 +13,15 @@ import static good_approach.types.TyreTypes.BRIDGE_STONE;
 
 public class Client {
     public static void main(String[] args) {
-        IEngines engines = EngineFactory.getMyEngine(ROLL_ROYCE);
-        ITyres tyres = TyreFactory.getMyTyres(BRIDGE_STONE);
-        ISoundSystems soundSystems = SoundSystemsFactory.getMySoundSystems(SONY);
+        final IEngines engines = EngineFactory.getMyEngine(ROLL_ROYCE);
+        final ITyres tyres = TyreFactory.getMyTyres(BRIDGE_STONE);
+        final ISoundSystems soundSystems = SoundSystemsFactory.getMySoundSystems(SONY);
 
-        Ferrai ferrai = new Ferrai(engines, soundSystems, tyres);
-        ferrai.startMyEngine();
-        ferrai.letsRoll();
-        ferrai.startMusic();
+        final Ferrari ferrari = new Ferrari(engines, soundSystems, tyres);
+        ferrari.startMyEngine();
+        ferrari.letsRoll();
+        ferrari.startMusic();
 
-        System.out.println(ferrai);
+        System.out.println(ferrari);
     }
 }
