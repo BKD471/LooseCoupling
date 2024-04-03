@@ -9,10 +9,10 @@ public class Ferrari {
     private final FordEngine engines;
     private final BoschSoundSystems soundSystems;
 
-    public Ferrari() {
-        this.tyres = new MichelinTyres();
-        this.engines = new FordEngine();
-        this.soundSystems = new BoschSoundSystems();
+    public Ferrari(MichelinTyres tyres,FordEngine engines,BoschSoundSystems soundSystems) {
+        this.tyres = tyres;
+        this.engines = engines;
+        this.soundSystems = soundSystems;
     }
 
     @Override
